@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+}
+
+.navbar {
+    background-color: #CCD5AE; 
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FEFAE0; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #E0E5B6; 
+    color: #FAEDCE;
+}
+.footer {
+    background-color: #CCD5AE; /* Fondo del footer */
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #FEFAE0; /* Color del texto */
+    margin-top: 20px; /* Espacio antes del footer para que no esté pegado al contenido */
+    margin-bottom: 0px;
+}
+
+.footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los iconos */
+}
+
+.footer .redes-sociales img {
+    width: 30px;
+    height: 30px;
+    background-color: #E0E5B6; /* Fondo detrás de los iconos */
+    padding: 5px;
+    border-radius: 50%;
+}
+.contenedor-productos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre filas */
+    padding: 20px;
+    background-color: #FAEDCE; /* Color de fondo */
+    box-sizing: border-box;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.columna {
+    width: 22%; /* 4 columnas por fila */
+    text-align: center;
+    padding: 10px;
+    background-color: #CCD5AE; /* Fondo de cada producto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    cursor: pointer;
+    
+}
+
+.columna img {
+    width: 210px; /* Tamaño fijo de 210x170 */
+    height: 170px;
+    object-fit: cover; /* Asegura que la imagen se recorte si es necesario para ajustarse */
+    border-radius: 5px;
+    
+}
+
+.columna p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Nombre del producto */
+.columna p:first-of-type {
+    font-weight: bold;
+    color: #272727; /* Color negro para el nombre del producto */
+    font-family: Arial, sans-serif; /* Tipografía para el nombre del producto */
+}
+
+/* Precio del producto */
+.columna p:last-of-type {
+    font-family: 'Courier New', Courier, monospace; /* Tipografía distinta para el precio */
+    color: #000000; /* Color negro para el precio */
+    font-weight: 550;
+}
+
+/* Hover en el producto */
+.columna:hover {
+    background-color: #E0E5B6; /* Cambia de color al pasar el mouse */
+}
