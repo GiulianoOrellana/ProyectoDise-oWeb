@@ -9,7 +9,7 @@ h1{
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni MT', serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navbar a {
@@ -29,7 +29,7 @@ h1{
     background-color: #CCD5AE;
     padding: 10px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni MT', serif;
     color: #FEFAE0; 
     margin-top: 20px; 
     margin-bottom: 0px;
@@ -84,7 +84,7 @@ h1{
 .columna p:first-of-type {
     font-weight: bold;
     color: #272727; 
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni MT', serif;
 }
 .columna p:last-of-type {
     font-family: 'Courier New', Courier, monospace; 
