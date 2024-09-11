@@ -1,0 +1,88 @@
+body{}
+h1{
+    text-align: center;
+}
+
+.navbar {
+    background-color: #CCD5AE; 
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Bodoni MT', serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FEFAE0; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #E0E5B6; 
+    color: #FAEDCE;
+}
+
+.Bienvenidos
+h2 {
+    background-color: #FAEDCE; 
+    padding: 20px;
+    text-align: center;
+ }
+
+ h3 {
+    background-color: #FAEDCE; 
+    padding: 20px;
+    text-align: center;
+ }
+
+ section{
+  h5 {  
+  font-family: 'Bodoni MT', serif;
+  text-align: center;
+}
+}
+body {
+    background-color: #FEFAE0; }
+
+    .footer {
+        background-color: #E0E5B6;
+        padding: 20px;
+        text-align: center;
+        color: #333333;
+        font-family: 'Bodoni MT', serif;
+        position: relative;
+        width: 100%;
+      
+  }
+  
+  .footer h4 {
+    margin: 0 0 10px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #000;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #333333;
+  }
+  
+  .social-icons a:hover {
+    color: #000000;
+  }
+  
