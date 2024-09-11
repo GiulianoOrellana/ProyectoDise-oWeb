@@ -10,7 +10,7 @@ h1{
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni MT', serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,6 +33,7 @@ h1{
 {
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Bodoni MT', serif;
 }
 
 .parrafo
@@ -43,6 +44,7 @@ h1{
     text-align: center;
     width:60%;
     margin: 0 auto;
+    font-family: 'Bodoni MT', serif;
 }
 
 .imagencentrada
