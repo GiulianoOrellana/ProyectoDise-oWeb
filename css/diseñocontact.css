@@ -55,3 +55,24 @@ h1{
     width: 80%;
     height: auto;
 }
+.footer {
+  background-color: #CCD5AE;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Bodoni MT', serif;
+  color: #FEFAE0; 
+  margin-top: 20px; 
+  margin-bottom: 0px;
+}
+.footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+.footer .redes-sociales img {
+  width: 30px;
+  height: 30px;
+  background-color: #E0E5B6; 
+  padding: 5px;
+  border-radius: 50%;
+}
