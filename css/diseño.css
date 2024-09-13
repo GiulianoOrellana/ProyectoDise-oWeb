@@ -50,7 +50,8 @@ h2 {
 }
 }
 body {
-    background-color: #FEFAE0; }
+    background-color: #FEFAE0; 
+}
 
     .footer {
         background-color: #E0E5B6;
@@ -88,4 +89,6 @@ body {
   .social-icons a:hover {
     color: #000000;
   }
-  
+  .producto img{
+  margin-left: 75px;
+}
