@@ -92,3 +92,63 @@ body {
   .producto img{
   margin-left: 75px;
 }
+
+.contacto {
+  text-align: center;
+  background-color: #FAEDCE;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.formulario-contacto label {
+  font-weight: bold;
+  font-family: 'Bodoni MT', serif;
+  color: #333333;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #CCD5AE;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 450px; 
+  font-family: 'Bodoni MT', serif;
+  background-color: #FEFAE0;
+  box-sizing: border-box;
+}
+
+.formulario-contacto button {
+  padding: 10px;
+  background-color: #CCD5AE;
+  color: #FEFAE0;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 450px; 
+}
+
+.formulario-contacto button:hover {
+  background-color: #E0E5B6;
+  color: #FAEDCE;
+}
+
