@@ -42,6 +42,13 @@ h2 {
     text-align: center;
  }
 
+ h4 {
+  background-color: #FAEDCE; 
+  padding: 20px;
+  text-align: center;
+}
+
+
  section{
   h5 {  
   font-family: 'Bodoni MT', serif;
@@ -386,4 +393,12 @@ body {
 
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+#miVideo {
+  padding-left: 635px;
+  text-align: center;
+  object-fit: cover;
+  overflow: hidden;
+  
 }
