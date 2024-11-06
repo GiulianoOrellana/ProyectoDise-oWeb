@@ -16,3 +16,9 @@ function showPrev() {
 
 next.addEventListener('click', showNext);
 prev.addEventListener('click', showPrev);
+
+const video = document.getElementById('miVideo');
+video.loop = true;
+video.autoplay = true;
+video.play();
+video.muted = true;
