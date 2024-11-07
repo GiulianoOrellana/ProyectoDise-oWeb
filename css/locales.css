@@ -257,3 +257,7 @@ h1{
       align-items: center;
   }
 }
+
+.local img {
+ cursor: pointer;
+}
