@@ -1,4 +1,4 @@
-@import 'mq';
+
 
 body{
     overflow-x: hidden;
@@ -238,7 +238,8 @@ h1{
         flex: 0 0 30%;
     }
     .columna img {
-        width: 100%;
+        width: 300px;
+        height: 250px;
     }
 
     
