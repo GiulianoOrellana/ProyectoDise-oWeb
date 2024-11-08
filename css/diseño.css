@@ -5,9 +5,9 @@ h1{
     text-align: center;
 }
 h2, h3, h4, h5 {
-  font-family: 'Bodoni MT', serif; /* Especifica la fuente que deseas usar */
-  font-weight: bold; /* Asegura el grosor adecuado */
-  color: #333; /* Cambia el color si es necesario */
+  font-family: 'Bodoni MT', serif; 
+  font-weight: bold; 
+  color: #333; 
   text-align: center;
 }
 
@@ -330,8 +330,8 @@ body {
   }
 }
 #carouselExample {
-  width: 600px; /* Ajuste del ancho del carrusel */
-  height: 350px; /* Ajuste de la altura del carrusel */
+  width: 600px; 
+  height: 350px; 
   margin: 20px auto; 
   overflow: hidden;
   position: relative;
@@ -345,24 +345,26 @@ body {
 }
 
 .carousel-item img {
-  width: auto; /* Mantiene la proporción de la imagen */
-  height: 450px; /* Ajusta la altura para que se vea completa */
-  max-width: 100%; /* Limita el ancho para evitar recorte en los lados */
-  object-fit: contain; /* Mantiene toda la imagen visible */
+  width: auto; 
+  height: 450px; 
+  max-width: 100%; 
+  object-fit: contain; 
   
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(64, 64, 64, 0.8); /* Color gris oscuro */
-    background-size: 100%, 100%; /* Asegura que el icono se vea completo */
-    border-radius: 50%; /* Opcional: le da forma circular */
+    background-color: rgba(64, 64, 64, 0.8); 
+    background-size: 100%, 100%; 
+    border-radius: 50%; 
 }
+
 #miVideo {
   display: block;
-  max-width: 90%; /* Para ajustarse al contenedor */
-  margin: 0 auto; /* Centra el video */
-  border-radius: 8px; /* Opcional: bordes redondeados */
+  max-width: 90%; 
+  margin: 0 auto; 
+  border-radius: 8px; 
+  object-fit: cover;
 }
 
 .boton-volver {
