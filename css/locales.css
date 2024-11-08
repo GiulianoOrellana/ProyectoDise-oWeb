@@ -94,171 +94,82 @@ h1{
 }
 
 @media (max-width: 600px) {
-    
-  header h1 img {
-      width: 150px;
-      display: block;
-      margin: 0 auto;
-  }
-
-  
-  .navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  .navbar a {
-      font-size: 14px;
-      padding: 10px 0;
-      text-align: center;
-  }
-
-  
-  .producto img, .columna img {
-      width: 100%;
-      height: auto;
-  }
-
-  
-  .fila {
-      flex-direction: column;
-      align-items: center;
-  }
-  .columna {
-      width: 100%;
-      margin-bottom: 20px;
-  }
-
-  
-  #locales .local {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-  #locales img {
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 10px;
-  }
-  #locales .local-info {
-      width: 90%;
-  }
-
-  
-  .footer {
-      text-align: center;
-  }
-  .footer .redes-sociales {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-  }
-}
-
-
-@media (min-width: 601px) and (max-width: 1024px) {
-  header h1 img {
-      width: 200px;
-      margin: 0 auto;
-  }
-
-  
-  .navbar {
-      display: flex;
-      justify-content: space-around;
-  }
+ 
   .navbar a {
       font-size: 16px;
-      padding: 8px;
+      margin: 5px 10px;
   }
 
-  
-  .fila {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+  section#locales {
+      padding: 10px;
   }
-  .columna {
-      flex: 0 0 45%;
-      margin-bottom: 20px;
+
+  .local {
+      flex-direction: column; 
+      align-items: center;
   }
-  .columna img {
-      width: 100%;
+
+  .local-info {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .local img {
+      width: 100%; 
       height: auto;
   }
 
-  
-  #locales .local {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 20px;
-  }
-  #locales img {
-      width: 45%;
-      max-width: 250px;
-  }
-  #locales .local-info {
-      width: 50%;
-  }
-
-  
-  .footer {
-      text-align: left;
+  footer.footer {
+      padding: 15px;
   }
 }
 
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar a {
+      font-size: 17px;
+      margin: 0 15px;
+  }
+
+  section#locales {
+      padding: 15px;
+  }
+
+  .local {
+      flex-direction: row; 
+      justify-content: space-around; 
+  }
+
+  .local img {
+      width: 45%;
+      height: 25%; 
+  }
+
+  footer.footer {
+      padding: 20px;
+  }
+}
 
 @media (min-width: 1025px) {
-  
-  header h1 img {
-      width: 300px;
-  }
-  .navbar {
-      display: flex;
-      justify-content: space-between;
-  }
   .navbar a {
       font-size: 18px;
-      padding: 12px;
+      margin: 0 20px;
   }
 
-  
-  .fila {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-  }
-  .columna {
-      flex: 0 0 30%;
-  }
-  .columna img {
-      width: 100%;
+  section#locales {
+      padding: 20px;
   }
 
-  
-  #locales .local {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 30px;
-  }
-  #locales img {
-      width: 350px;
-      height: 300px;
-  }
-  #locales .local-info {
-      width: 55%;
+  .local {
+      flex-direction: row; 
+      justify-content: space-evenly; 
   }
 
-  
-  .footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+  .local img {
+      width: 40%;
+      height: 20%; 
   }
-}
 
-.local img {
- cursor: pointer;
+  footer.footer {
+      padding: 30px;
+  }
 }
